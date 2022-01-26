@@ -1,4 +1,4 @@
-service: grafico-seguimiento-cryptos-invrtir
+service: grafico-seg-cryptos-invrtir
 
 provider:
   name: aws

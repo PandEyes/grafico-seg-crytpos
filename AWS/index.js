@@ -11,7 +11,7 @@ app.set('port', process.env.PORT || PUERTO);
 
 app.get('/', inicio);
 
-app.get('/grafico/:ticker', (req, res) => {
+app.get('/grafico/:crypto', (req, res) => {
     res.sendFile(__dirname + "/public/grafico.html");
 });
 
